@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <script src='main.js'></script>
+    <style>
+        body{
+            background: url("https://images.unsplash.com/photo-1597524115557-3b88520704c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1862&q=80");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #header{
+        background: url("imgs/header.jpeg") center center / cover no-repeat;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-dark" style="background:#B26FC0;">
+    <nav class="navbar bg-dark navbar-dark">
         <div class="container">
             <a href="" class="navbar-brand"><i class="fas fa-hand-sparkles mr-2"></i>PATTERN</a>
         </div>
@@ -21,6 +32,46 @@
         <p class="lead">A simple front-end design for a website which allows users to select the patterns that they like.</p>
         <a href="" class="btn btn-primary">Do Something</a>
         <a href="" class="btn btn-success">Another Thing</a>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class= "card-img-top" src="imgs/pattern1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">First Pattern</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra augue risus, a iaculis arcu tempor et. Mauris finibus at nibh ut sagittis. Nunc nisi sapien, rutrum vitae elementum eget, interdum et ante.</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Download</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class= "card-img-top" src="imgs/pattern2.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Second Pattern</h5>
+                            <p class="card-text">Fusce feugiat sollicitudin lectus nec suscipit. Donec vitae justo non massa rhoncus vehicula consectetur a nisi. Praesent imperdiet arcu at semper vulputate. Nulla sit amet laoreet eros.</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Download</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class= "card-img-top" src="imgs/pattern3.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Third Pattern</h5>
+                            <p class="card-text">Fusce hendrerit quam sed arcu tincidunt efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris quis elementum dui, ut luctus est. Curabitur gravida pulvinar felis in placerat. </p>
+                            <a href="" class="btn btn-outline-success btn-sm">Download</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
